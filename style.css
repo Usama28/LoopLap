@@ -1,0 +1,61 @@
+body
+{
+    background-color: #333;
+    color: #fff;
+}
+.navbar
+{
+    border-bottom:  3px solid lightblue;
+    opacity: 0.8;
+}
+#home-section
+{
+    background: url(images/people-gathering-during-sunset-1066201.jpg);
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dark-overlay
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 700px;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+.home-inner
+{
+    padding-top: 160px;
+}
+.card-form
+{
+    opacity: 0.8;
+}
+/*for home section sytling*/
+#home-section .fa
+{
+    color: #fff;
+    background-color: rgb(56, 173, 212);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+/*for explore section sytling*/
+#exploreSection .fa
+{
+    color: #fff;
+    background-color: rgb(55, 84, 94);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+/*for create section sytling*/
+#createSection .fa
+{
+    color: #fff;
+    background-color:grey;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
